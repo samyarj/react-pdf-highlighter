@@ -16,7 +16,6 @@ import type {
   ScaledPosition,
 } from "./react-pdf-highlighter";
 
-import { Sidebar } from "./Sidebar";
 import { Spinner } from "./Spinner";
 import { testHighlights as _testHighlights } from "./test-highlights";
 
@@ -147,11 +146,6 @@ class App extends Component<{}, State> {
 
     return (
       <div className="App" style={{ display: "flex", height: "100vh" }}>
-        <Sidebar
-          highlights={highlights}
-          resetHighlights={this.resetHighlights}
-          toggleDocument={this.toggleDocument}
-        />
         <div
           style={{
             height: "100vh",

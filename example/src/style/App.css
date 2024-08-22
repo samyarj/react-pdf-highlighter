@@ -4,24 +4,6 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   background-color: #ffffff;
-  color: #fff;
-}
-
-.sidebar {
-  overflow: auto;
-  color: rgb(119, 119, 119);
-  background: linear-gradient(
-    rgb(249, 248, 247),
-    rgb(251, 250, 248) 46px,
-    rgb(251, 251, 249) 120px,
-    rgb(248, 247, 245) 35%,
-    rgb(249, 248, 246)
-  );
-}
-
-.sidebar__highlights {
-  list-style: "none";
-  padding: 0;
 }
 
 .highlight__location {
@@ -34,17 +16,6 @@ body {
   overflow: auto;
   max-width: 300px;
   border: 1px dashed;
-}
-
-.sidebar__highlight {
-  padding: 1rem;
-  cursor: pointer;
-  transition: background 140ms ease-in;
-  border-bottom: 1px solid rgb(119, 119, 119);
-}
-
-.sidebar__highlight:hover {
-  background: rgba(58, 56, 52, 0.08);
 }
 
 a {
